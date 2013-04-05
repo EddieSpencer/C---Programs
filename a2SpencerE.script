@@ -1,0 +1,468 @@
+Script started on Sun Sep 23 17:24:53 2012
+[?1034hbash-3.2$ g++ *.cpp -o bowl
+bash-3.2$ ./bowl
+Welcome to the Droll Bowling Alley.
+Press 1 to get started, anything else to exit. 0
+Exiting...
+bash-3.2$ ./bowl
+Welcome to the Droll Bowling Alley.
+Press 1 to get started, anything else to exit. 1
+How many players will be playing (20 Max)? 1
+There are 1 players. How many games will there be (10 Max)? 1
+Resetting Data...
+Bowling Started!
+Game 1:
+Enter player 1's throw for frame 1: 5
+Enter player 1's throw for frame 1: 4
+Enter player 1's throw for frame 2: 3
+Enter player 1's throw for frame 2: 2
+Enter player 1's throw for frame 3: 1
+Enter player 1's throw for frame 3: 0
+Enter player 1's throw for frame 4: 10
+Strike!
+Enter player 1's throw for frame 5: 9
+Enter player 1's throw for frame 5: 1
+Spare!
+Enter player 1's throw for frame 6: 8
+Enter player 1's throw for frame 6: 2
+Spare!
+Enter player 1's throw for frame 7: 7
+Enter player 1's throw for frame 7: 3
+Spare!
+Enter player 1's throw for frame 8: 6
+Enter player 1's throw for frame 8: 4
+Spare!
+Enter player 1's throw for frame 9: 5
+Enter player 1's throw for frame 9: 5
+Spare!
+Enter player 1's throw for frame 10: 10
+Strike!
+Enter player 1's throw for frame 10: 10
+Enter player 1's throw for frame 10: 8
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+1
+How many players will be playing (20 Max)? 2
+There are 2 players. How many games will there be (10 Max)? 1
+Resetting Data...
+Bowling Started!
+Game 1:
+Enter player 1's throw for frame 1: 10
+Strike!
+Enter player 2's throw for frame 1: 0
+Enter player 2's throw for frame 1: 1
+Enter player 1's throw for frame 2: 10
+Strike!
+Enter player 2's throw for frame 2: 0
+Enter player 2's throw for frame 2: 1
+Enter player 1's throw for frame 3: 10
+Strike!
+Enter player 2's throw for frame 3: 8
+Enter player 2's throw for frame 3: 4 2
+Spare!
+Enter player 1's throw for frame 4: 2
+Enter player 1's throw for frame 4: 1
+Enter player 2's throw for frame 4: 0
+Enter player 2's throw for frame 4: 9
+Enter player 1's throw for frame 5: 5
+Enter player 1's throw for frame 5: 3
+Enter player 2's throw for frame 5: 2
+Enter player 2's throw for frame 5: 1
+Enter player 1's throw for frame 6: 3
+Enter player 1's throw for frame 6: 4
+Enter player 2's throw for frame 6: 5
+Enter player 2's throw for frame 6: 4
+Enter player 1's throw for frame 7: 8
+Enter player 1's throw for frame 7: 2
+Spare!
+Enter player 2's throw for frame 7: 3
+Enter player 2's throw for frame 7: 7
+Spare!
+Enter player 1's throw for frame 8: 8
+Enter player 1's throw for frame 8: 0
+Enter player 2's throw for frame 8: 1
+Enter player 2's throw for frame 8: 2
+Enter player 1's throw for frame 9: 3
+Enter player 1's throw for frame 9: 4
+Enter player 2's throw for frame 9: 5
+Enter player 2's throw for frame 9: 4
+Enter player 1's throw for frame 10: 3
+Enter player 1's throw for frame 10: 2
+Enter player 2's throw for frame 10: 10
+Strike!
+Enter player 2's throw for frame 10: 10
+Enter player 2's throw for frame 10: 10
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+2
+Scoreboard of all Players: 
+
+Player 1's score for game 1 is: 121
+Player 2's score for game 1 is: 86
+How many players will be playing (20 Max)? 3
+There are 3 players. How many games will there be (10 Max)? 2
+Resetting Data...
+Bowling Started!
+Game 1:
+Enter player 1's throw for frame 1: 10
+Strike!
+Enter player 2's throw for frame 1: 10
+Strike!
+Enter player 3's throw for frame 1: 10
+Strike!
+Enter player 1's throw for frame 2: 10
+Strike!
+Enter player 2's throw for frame 2: 10
+Strike!
+Enter player 3's throw for frame 2: 10
+Strike!
+Enter player 1's throw for frame 3: 10
+Strike!
+Enter player 2's throw for frame 3: 10
+Strike!
+Enter player 3's throw for frame 3: 10
+Strike!
+Enter player 1's throw for frame 4: 10
+Strike!
+Enter player 2's throw for frame 4: 10
+Strike!
+Enter player 3's throw for frame 4: 10
+Strike!
+Enter player 1's throw for frame 5: 10
+Strike!
+Enter player 2's throw for frame 5: 10
+Strike!
+Enter player 3's throw for frame 5: 10
+Strike!
+Enter player 1's throw for frame 6: 10
+Strike!
+Enter player 2's throw for frame 6: 10
+Strike!
+Enter player 3's throw for frame 6: 10
+Strike!
+Enter player 1's throw for frame 7: 10
+Strike!
+Enter player 2's throw for frame 7: 10
+Strike!
+Enter player 3's throw for frame 7: 10
+Strike!
+Enter player 1's throw for frame 8: 10
+Strike!
+Enter player 2's throw for frame 8: 10
+Strike!
+Enter player 3's throw for frame 8: 10
+Strike!
+Enter player 1's throw for frame 9: 10
+Strike!
+Enter player 2's throw for frame 9: `0  10
+Strike!
+Enter player 3's throw for frame 9: 10
+Strike!
+Enter player 1's throw for frame 10: 1
+Enter player 1's throw for frame 10: 2
+Enter player 2's throw for frame 10: 3
+Enter player 2's throw for frame 10: 4
+Enter player 3's throw for frame 10: 5
+Enter player 3's throw for frame 10: 5
+Spare!
+Enter player 3's throw for frame 10: 1
+Game 2:
+Enter player 1's throw for frame 1: 0
+Enter player 1's throw for frame 1: 0
+Enter player 2's throw for frame 1: 1
+Enter player 2's throw for frame 1: 1
+Enter player 3's throw for frame 1: 2
+Enter player 3's throw for frame 1: 2
+Enter player 1's throw for frame 2: 3
+Enter player 1's throw for frame 2: 3
+Enter player 2's throw for frame 2: 4
+Enter player 2's throw for frame 2: 4
+Enter player 3's throw for frame 2: 5
+Enter player 3's throw for frame 2: 5
+Spare!
+Enter player 1's throw for frame 3: 6
+Enter player 1's throw for frame 3: 6
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 3: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 3: 1
+Enter player 2's throw for frame 3: 0
+Enter player 2's throw for frame 3: 1
+Enter player 3's throw for frame 3: 2
+Enter player 3's throw for frame 3: 3
+Enter player 1's throw for frame 4: 0
+Enter player 1's throw for frame 4: 6
+Enter player 2's throw for frame 4: 6
+Enter player 2's throw for frame 4: 6
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 6
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 6
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 5
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 4
+Spare!
+Enter player 3's throw for frame 4: 2
+Enter player 3's throw for frame 4: 1
+Enter player 1's throw for frame 5: 1
+Enter player 1's throw for frame 5: 1
+Enter player 2's throw for frame 5: 0
+Enter player 2's throw for frame 5: 0
+Enter player 3's throw for frame 5: 0
+Enter player 3's throw for frame 5: 1
+Enter player 1's throw for frame 6: 3
+Enter player 1's throw for frame 6: 4
+Enter player 2's throw for frame 6: 1
+Enter player 2's throw for frame 6: 2
+Enter player 3's throw for frame 6: 3
+Enter player 3's throw for frame 6: 4
+Enter player 1's throw for frame 7: 1
+Enter player 1's throw for frame 7: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 7: 0
+Enter player 2's throw for frame 7: 10
+Strike!
+Enter player 3's throw for frame 7: 10
+Strike!
+Enter player 1's throw for frame 8: 10
+Strike!
+Enter player 2's throw for frame 8: 3
+Enter player 2's throw for frame 8: 4
+Enter player 3's throw for frame 8: 10
+Strike!
+Enter player 1's throw for frame 9: 10
+Strike!
+Enter player 2's throw for frame 9: 2
+Enter player 2's throw for frame 9: 3
+Enter player 3's throw for frame 9: 4
+Enter player 3's throw for frame 9: 1
+Enter player 1's throw for frame 10: 1
+Enter player 1's throw for frame 10: 1
+Enter player 2's throw for frame 10: 1
+Enter player 2's throw for frame 10: 1
+Enter player 3's throw for frame 10: 1
+Enter player 3's throw for frame 10: 1
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+3
+Which player's scores do you want to see? 1
+Which game do you want to see? 2
+Player 1 scored 64 points in game 2
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+3
+Which player's scores do you want to see? 3
+Which game do you want to see? 2
+Player 3 scored 78 points in game 2
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+3
+Which player's scores do you want to see? 2
+Which game do you want to see? 1
+Player 2 scored 257 points in game 1
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+1
+How many players will be playing (20 Max)? 2
+There are 2 players. How many games will there be (10 Max)? 15
+Invalid number of games. Please try again.
+How many games will there be (10 Max)? 1
+Resetting Data...
+Bowling Started!
+Game 1:
+Enter player 1's throw for frame 1: 0 100
+Error! The input score is invalid. Please input a score from 0-10.
+Enter player 1's throw for frame 1: 2
+Enter player 1's throw for frame 1: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 1: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 1: 2
+Enter player 2's throw for frame 1: 3
+Enter player 2's throw for frame 1: 1
+Enter player 1's throw for frame 2: 1
+Enter player 1's throw for frame 2: 0
+Enter player 2's throw for frame 2: 0
+Enter player 2's throw for frame 2: 1
+Enter player 1's throw for frame 3: 3
+Enter player 1's throw for frame 3: 4
+Enter player 2's throw for frame 3: 8
+Enter player 2's throw for frame 3: 8
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 8
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 8
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 7
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 5
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 3
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 3
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 3: 2
+Spare!
+Enter player 1's throw for frame 4: 1
+Enter player 1's throw for frame 4: 1
+Enter player 2's throw for frame 4: 1
+Enter player 2's throw for frame 4: 101
+Error! The input score is invalid. Please input a score from 0-10.
+Enter player 2's throw for frame 4: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 2's throw for frame 4: 1
+Enter player 1's throw for frame 5: 10
+Strike!
+Enter player 2's throw for frame 5: 10
+Strike!
+Enter player 1's throw for frame 6: 1
+Enter player 1's throw for frame 6: 2
+Enter player 2's throw for frame 6: 3
+Enter player 2's throw for frame 6: 4
+Enter player 1's throw for frame 7: 2
+Enter player 1's throw for frame 7: 1
+Enter player 2's throw for frame 7: 3
+Enter player 2's throw for frame 7: 4
+Enter player 1's throw for frame 8: 1
+Enter player 1's throw for frame 8: 10
+Error! The number of pins in two throws cannot exceed 10 pins.
+Enter player 1's throw for frame 8: 1
+Enter player 2's throw for frame 8: 2
+Enter player 2's throw for frame 8: 3
+Enter player 1's throw for frame 9: 3
+Enter player 1's throw for frame 9: 3
+Enter player 2's throw for frame 9: 3
+Enter player 2's throw for frame 9: 3
+Enter player 1's throw for frame 10: 3
+Enter player 1's throw for frame 10: 3
+Enter player 2's throw for frame 10: 3
+Enter player 2's throw for frame 10: 3
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+4
+Exiting...
+bash-3.2$ ./bowl
+Welcome to the Droll Bowling Alley.
+Press 1 to get started, anything else to exit. 5
+Exiting...
+bash-3.2$ ./bowl
+Welcome to the Droll Bowling Alley.
+Press 1 to get started, anything else to exit. 1
+How many players will be playing (20 Max)? 40
+Invalid number of players. Please try again.
+How many players will be playing (20 Max)? 0
+Invalid number of players. Please try again.
+How many players will be playing (20 Max)? 21
+Invalid number of players. Please try again.
+How many players will be playing (20 Max)? 1
+There are 1 players. How many games will there be (10 Max)? 13
+Invalid number of games. Please try again.
+How many games will there be (10 Max)? 40
+Invalid number of games. Please try again.
+How many games will there be (10 Max)? 100
+Invalid number of games. Please try again.
+How many games will there be (10 Max)? 1
+Resetting Data...
+Bowling Started!
+Game 1:
+Enter player 1's throw for frame 1: 10
+Strike!
+Enter player 1's throw for frame 2: 10
+Strike!
+Enter player 1's throw for frame 3: 10
+Strike!
+Enter player 1's throw for frame 4: 10
+Strike!
+Enter player 1's throw for frame 5: 10
+Strike!
+Enter player 1's throw for frame 6: 10
+Strike!
+Enter player 1's throw for frame 7: 10
+Strike!
+Enter player 1's throw for frame 8: 10
+Strike!
+Enter player 1's throw for frame 9: 10
+Strike!
+Enter player 1's throw for frame 10: 10
+Strike!
+Enter player 1's throw for frame 10: 10
+Enter player 1's throw for frame 10: 10
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+3
+Which player's scores do you want to see? 1
+Which game do you want to see? 1
+Player 1 scored 300 points in game 1
+
+
+Bowling Menu:
+1-Play a new game. (resets previous game data)
+2-View all players scores for all games played, and then start a new game (resets previous game data)
+3-View a specific player's score on a specific game
+4-View all scores in an output file and exit.
+
+4
+Exiting...
+bash-3.2$ exit
+exit
+
+Script done on Sun Sep 23 17:31:04 2012
