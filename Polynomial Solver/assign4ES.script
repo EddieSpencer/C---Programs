@@ -1,0 +1,591 @@
+Script started on Fri Oct 26 17:39:04 2012
+[?1034hbash-3.2$ make
+g++ main.o UserInterface.o Polynomial.o Term.o Complex.o -o assign4ES
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+1
+You have chosen Integer.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first int term: 
+1
+2
+3
+Input second int term: 
+3
+2
+1
+4
+3
+2
+4
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+1
+Addition of polynomials: 
+(2)x^(4) + (6)x^(3) + (2)x
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+1
+You have chosen Integer.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+input.txt       tInput.txt
+Input file name to read from:
+intInputt .txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+2
+Multiplication of polynomials: 
+(4)x^(8) + (4)x^(7) + (1)x^(6)
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+1
+You have chosen Integer.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first int term: 
+50
+Invalid Input. Must be between 1-10
+20
+Invalid Input. Must be between 1-10
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+2
+Input second int term: 
+5
+-5
+-5
+Degree must be greater than 0. Input degree: 
+0
+4
+-3
+Degree must be greater than 0. Input degree: 
+2
+1
+0
+1
+2
+3
+4
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+3
+Input evaluation value: 
+2
+Evaluating first polynomial with x = 2 equals: 
+14228
+Evaluating second polynomial with x = 2 equals: 
+52
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+1
+You have chosen Integer.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first int term: 
+1
+2
+3
+Input second int term: 
+4
+5
+6
+7
+6
+5
+4
+3
+02 
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+4
+Polynomial 1 written to output text file
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+2
+You have chosen Float.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first float term: 
+3
+4.6
+3
+5.2
+1
+2.3
+4
+Input second float term: 
+5.3  
+2.3
+2
+3.4
+6
+4.3
+1
+2.3
+4
+9.8
+7
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+1
+Addition of polynomials: 
+(9.8)x^(7) + (3.4)x^(6) + (4.6)x^(4) + (4.6)x^(3) + (2.3)x^(2) + (9.5)x
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+2
+You have chosen Float.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+floatINput.txt
+Input file name to read from:
+floatInput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+2
+Multiplication of polynomials: 
+(0.25)x^(6) + (2.5)x^(4)(6.25)x^(2)
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+2
+You have chosen Float.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+fl  2
+Input file name to read from:
+float.txt
+Input error.
+Please try again.
+Input file name to read from:
+float.txtt
+Input error.
+Please try again.
+Input file name to read from:
+floatInput.txt
+Input file name to read from:
+float
+Input error.
+Please try again.
+Input file name to read from:
+floatInput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+3
+Input evaluation value: 
+2
+Evaluating first polynomial with x = 2 equals: 
+9
+Evaluating second polynomial with x = 2 equals: 
+9
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+2
+You have chosen Float.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first float term: 
+1
+2
+3
+Input second float term: 
+3
+2
+1
+3
+4
+5
+6
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+7 4
+Polynomial 1 written to output text file
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+3
+You have chosen Double.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first double term: 
+2
+3.4
+5
+3
+2
+Input second double term: 
+1
+-2
+5
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+1
+Addition of polynomials:
+(1.4)x^(5) + (3)x^(2)
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+3
+You have chosen Double.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+doubleINput.txtt
+Input error.
+Please try again.
+Input file name to read from:
+doubleINput    nput.txt
+Input file name to read from:
+doubleInput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+2
+Multiplication of polynomials: 
+(16)x^(18)
+bash-3.2$ 3./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+3
+You have chosen Double.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first double term: 
+2
+3
+4
+2
+1
+Input second double term: 
+1
+4
+3
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+2 3
+Input evaluation value: 
+16
+Evaluating first polynomial with x = 16 equals: 
+196640
+Evaluating second polynomial with x = 16 equals: 
+16384
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+3
+You have chosen Double.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+doubleInput.txt
+Input file name to read from:
+floatInput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+4
+Polynomial 1 written to output text file
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+4
+You have chosen Complex.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+1
+Input first complex term: 
+1
+2
+3
+4
+Input second complex term: 
+2
+1
+2
+3
+4
+5
+6
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+1
+Addition of polynomials:
+((4 + 5i))x^(6) + ((2 + 3i))x^(4) + ((1 + 2i))x^(3)
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+4
+You have chosen Complex.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+complexi Input.txt
+Input file name to read from:
+complexInput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+2
+Multiplication of polynomials:  
+((-9 + 40i))x^(12) + ((-12 + 26i))x^(9) + ((-3 + 4i))x^(6)
+
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+4
+You have chosen Complex.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+
+1
+Input first complex term: 
+4
+-1
+2
+3
+-4
+3
+1
+2
+3- 
+-2
+Degree must be greater than 0. Input degree: 
+3
+-4
+1
+2
+Input second complex term: 
+3
+2
+6
+5
+4
+3
+7
+8
+-4
+3
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+6 3
+Input evaluation value: 
+4
+Evaluating first polynomial with x = 4 equals: 
+(-142 + 159i)
+Evaluating second polynomial with x = 4 equals: 
+(68096 + 55040i)
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+4
+You have chosen Complex.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+2
+Input file name to read from:
+complexInput.txt
+Input file name to read from:
+complexINput    nput.txt
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+4
+Polynomial 1 written to output text file
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+5
+Invalid input. Rerun.
+bash-3.2$ ./assign4ES
+Select the data type you wish to work with: 
+1: Integer
+2: Float
+3: Double
+4: Complex
+1
+You have chosen Integer.
+Select how you wish to input data:
+1. Keyboard
+2. Input File
+3
+Input error.
+Please try again:
+1
+Input first int term: 
+1
+2
+3
+Input second int term: 
+1
+3
+2
+Select the operation you wish to perform: 
+1:  Addition
+2:  Multiplication
+3:  Evaluation
+4:  Output to file
+1
+Addition of polynomials: 
+(2)x^(3) + (3)x^(2)
+
+bash-3.2$ exit
+exit
+
+Script done on Fri Oct 26 17:46:41 2012
